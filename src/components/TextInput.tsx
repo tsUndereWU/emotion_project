@@ -23,7 +23,8 @@ const TextInput: React.FC<TextInputProps> = ({ onAnalyze, isLoading }) => {
       <textarea
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Опишите свои эмоции или мысли здесь... (например: 'Я сегодня испытываю ... эмоции')"
+        placeholder="Опишите свои эмоции или мысли здесь... (например: 'Я сегодня испытываю ... эмоции')
+Пишите развернуто и подробно для качественного анализа!"
         rows={4}
         style={{
           width: '100%',

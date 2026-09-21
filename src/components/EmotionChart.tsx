@@ -41,7 +41,7 @@ const EmotionChart: React.FC<EmotionChartProps> = ({ history }) => {
     labels: labels,
     datasets: [
       {
-        label: 'Уровень эмоций (0 - негатив, 1 - позитив)',
+        label: 'Оценка эмоции',
         data: scores,
         borderColor: 'rgb(54, 162, 235)',
         backgroundColor: 'rgba(54, 162, 235, 0.2)',
